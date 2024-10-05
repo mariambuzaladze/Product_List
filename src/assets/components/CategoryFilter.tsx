@@ -22,7 +22,7 @@ export default function CategoryFilter({
       </div>
 
       {active && (
-        <div className="w-max gap-1 grid grid-cols-3 absolute bg-white border border-gray-300 mt-1 rounded shadow-lg">
+        <div className="w-max gap-1 grid grid-cols-3 absolute bg-white border border-gray-300 mt-1 rounded shadow-lg bg-[#607D99]">
           {options.map((option) => (
             <label
               key={option}
