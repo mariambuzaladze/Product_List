@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Smartphone X",
+    "price": 799.99,
+    "description": "A cutting-edge smartphone with a powerful processor and a stunning display.",
+    "category": "Electronics",
+    "available": true,
+    "rating": 4.5,
+    "image": "https://queue-it.com/media/ppcp1twv/product-drop.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Leather Sofa",
+    "price": 1200.0,
+    "description": "A luxurious leather sofa perfect for your living room.",
+    "category": "Furniture",
+    "available": false,
+    "rating": 4.0,
+    "image": "https://queue-it.com/media/ppcp1twv/product-drop.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Running Shoes",
+    "price": 150.5,
+    "description": "High-performance running shoes for athletes.",
+    "category": "Clothing",
+    "available": true,
+    "rating": 4.7,
+    "image": "https://queue-it.com/media/ppcp1twv/product-drop.jpg"
+  },
+  {
+    "id": 4,
+    "title": "4K TV",
+    "price": 999.99,
+    "description": "A 4K Ultra HD TV with HDR support for an immersive viewing experience.",
+    "category": "Electronics",
+    "available": true,
+    "rating": 4.8,
+    "image": "https://queue-it.com/media/ppcp1twv/product-drop.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Gaming Laptop",
+    "price": 1599.0,
+    "description": "A high-performance gaming laptop with a powerful GPU and fast refresh rate.",
+    "category": "Electronics",
+    "available": true,
+    "rating": 4.9,
+    "image": "https://queue-it.com/media/ppcp1twv/product-drop.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Dining Table Set",
+    "price": 850.0,
+    "description": "A modern dining table set with 4 chairs, perfect for family gatherings.",
+    "category": "Furniture",
+    "available": false,
+    "rating": 4.3,
+    "image": "https://queue-it.com/media/ppcp1twv/product-drop.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Bluetooth Headphones",
+    "price": 199.99,
+    "description": "Noise-canceling Bluetooth headphones with excellent sound quality.",
+    "category": "Electronics",
+    "available": true,
+    "rating": 4.6,
+    "image": "https://queue-it.com/media/ppcp1twv/product-drop.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Winter Jacket",
+    "price": 129.99,
+    "description": "A warm and waterproof winter jacket designed for extreme weather.",
+    "category": "Clothing",
+    "available": true,
+    "rating": 4.2,
+    "image": "https://queue-it.com/media/ppcp1twv/product-drop.jpg"
+  }
+]

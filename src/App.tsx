@@ -1,7 +1,8 @@
 import "./App.css";
+import ProductList from "./assets/components/ProductList";
 
 function App() {
-  return <></>;
+  return <ProductList />;
 }
 
 export default App;
