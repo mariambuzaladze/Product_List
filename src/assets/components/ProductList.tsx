@@ -4,6 +4,7 @@ import Item from "./Item";
 import CategoryFilter from "./CategoryFilter";
 import PriceFilter from "./PriceFilter";
 import AvailabilityFilter from "./AvailabilityFilter";
+import RatingFilter from "./RatingFilter";
 
 export default function ProductList() {
   const [data, setData] = useState<IData[]>(Data);
@@ -15,10 +16,12 @@ export default function ProductList() {
   } | null>(null);
 
   const [availability, setAvailability] = useState<boolean | null>(null);
+  const [rating, setRating] = useState<number | null>(null);
 
-  console.log("hh", category);
+  console.log("cc", category);
   console.log("pp", price);
   console.log("aa", availability);
+  console.log("rr", rating);
 
   return (
     <div className="flex flex-col gap-4 bg-[#2C3E50]">
@@ -30,6 +33,7 @@ export default function ProductList() {
           <CategoryFilter setCategory={setCategory} />
           <PriceFilter setPrice={setPrice} />
           <AvailabilityFilter setAvailability={setAvailability} />
+          <RatingFilter setRating={setRating} />
         </div>
 
         <div className="grid grid-cols-2 gap-3 p-1">
