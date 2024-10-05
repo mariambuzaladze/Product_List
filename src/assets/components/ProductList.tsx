@@ -3,6 +3,7 @@ import { useState } from "react";
 import Item from "./Item";
 import CategoryFilter from "./CategoryFilter";
 import PriceFilter from "./PriceFilter";
+import AvailabilityFilter from "./AvailabilityFilter";
 
 export default function ProductList() {
   const [data, setData] = useState<IData[]>(Data);
@@ -13,8 +14,11 @@ export default function ProductList() {
     max: number;
   } | null>(null);
 
+  const [availability, setAvailability] = useState<boolean | null>(null);
+
   console.log("hh", category);
   console.log("pp", price);
+  console.log("aa", availability);
 
   return (
     <div className="flex flex-col gap-4 bg-[#2C3E50]">
@@ -25,6 +29,7 @@ export default function ProductList() {
         <div className="flex gap-2 rounded-[10px] border border-gray-300 w-fit p-1 bg-white">
           <CategoryFilter setCategory={setCategory} />
           <PriceFilter setPrice={setPrice} />
+          <AvailabilityFilter setAvailability={setAvailability} />
         </div>
 
         <div className="grid grid-cols-2 gap-3 p-1">
