@@ -22,6 +22,7 @@ export default function ProductList() {
   console.log("pp", price);
   console.log("aa", availability);
   console.log("rr", rating);
+  console.log(setData);
 
   return (
     <div className="flex flex-col gap-4 bg-[#2C3E50]">
