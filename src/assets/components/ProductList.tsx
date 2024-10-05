@@ -28,7 +28,7 @@ export default function ProductList() {
       <header className="w-full bg-[#4A5568] p-3">
         <h1 className="text-white text-3xl">Product List</h1>
       </header>
-      <main>
+      <main className="flex flex-col items-center">
         <div className="flex gap-2 rounded-[10px] border border-gray-300 w-fit p-1 bg-white">
           <CategoryFilter setCategory={setCategory} />
           <PriceFilter setPrice={setPrice} />
